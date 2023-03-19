@@ -80,7 +80,7 @@
 															:underline nil))))
 
 			  ;; Eshell Faces:
-			  `(eshell-prompt ((t (:inherit default :foreground ,solarized-green :weight bold :background ,solarized-base2))))
+			  `(eshell-prompt ((t (:inherit default :foreground ,solarized-green :weight bold :background ,solarized-base2 :box (:line-width (2 . 2) :color ,solarized-green :style flat-button)))))
 			  
 			  ;; Outline Faces:
 			  `(outline-1 ((t (:inherit default :foreground ,solarized-green))))
